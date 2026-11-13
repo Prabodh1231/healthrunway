@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>HealthRunway: project description</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; color: #10201c; font-size: 9.6pt; line-height: 1.36; }
+  .page { width: 210mm; height: 297mm; padding: 10mm 13mm 8mm; display: flex; flex-direction: column; }
+  header { display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 3px solid #0b7a68; padding-bottom: 8px; }
+  h1 { margin: 0; font-size: 22pt; letter-spacing: -0.5px; color: #075e50; }
+  .tag { font-size: 11.5pt; color: #3d4b47; margin-top: 2px; }
+  .event { text-align: right; font-size: 9pt; color: #5a6763; }
+  h2 { font-size: 10.5pt; margin: 8px 0 3px; color: #075e50; text-transform: uppercase; letter-spacing: .6px; }
+  p { margin: 0 0 5px; }
+  ul { margin: 0; padding-left: 16px; }
+  li { margin-bottom: 3px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 18px; }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 8px 0 2px; }
+  .stat { background: #e3f3ef; border-radius: 8px; padding: 7px 10px; }
+  .stat b { display: block; font-size: 15pt; color: #075e50; }
+  .stat span { font-size: 8.6pt; color: #3d4b47; }
+  .feature { border: 1px solid #dfe5e0; border-radius: 8px; padding: 6px 9px; margin-bottom: 6px; }
+  .feature b { color: #075e50; }
+  table { width: 100%; border-collapse: collapse; font-size: 8.8pt; }
+  td, th { text-align: left; padding: 2px 6px; border-bottom: 1px solid #e3e7e1; vertical-align: top; }
+  th { background: #f6f7f4; font-weight: 600; }
+  .small { font-size: 8.6pt; color: #5a6763; }
+  footer { margin-top: auto; font-size: 8.4pt; color: #5a6763; border-top: 1px solid #e3e7e1; padding-top: 6px; }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <div>
+      <h1>HealthRunway</h1>
+      <div class="tag">Medical-shock early warning for households, with a generic-medicine savings finder</div>
+    </div>
+    <div class="event">DSH Hacks V2 · AI x Healthcare<br>Web app · Next.js · Claude</div>
+  </header>
+
+  <h2>The problem</h2>
+  <p>
+    In India, most hospital and medicine bills are paid from the family's own pocket. A single admission can wipe out
+    savings and push a household into debt. The WHO calls health spending above <b>10% of household income</b>
+    <i>catastrophic</i> (SDG 3.8.2). Families rarely see it coming, and many keep paying 5–10× more than they need to
+    for the long-term medicines they take every day.
+  </p>
+  <div class="stats">
+    <div class="stat"><b>₹26,475</b><span>average urban hospital stay, 2017-18, before inflation (NSS 75th round)</span></div>
+    <div class="stat"><b>7×</b><span>private hospital cost vs government hospital (NSS 75th round)</span></div>
+    <div class="stat"><b>50–90%</b><span>cheaper Jan Aushadhi generics vs brands (PMBJP)</span></div>
+  </div>
+
+  <h2>What we built</h2>
+  <div class="grid">
+    <div>
+      <div class="feature"><b>1. Two-minute risk check.</b> Covers family members, ages, long-term conditions, income, savings,
+        insurance and regular health costs. Data stays in the browser: no accounts, no server copy.</div>
+      <div class="feature"><b>2. Early-warning report.</b> The <i>health runway</i> is the month the family's expected
+        health spending crosses the WHO 10% line. A <i>hospital shock test</i> splits a major bill into what insurance
+        pays, what savings cover and the unpaid gap. A 0–100 risk score shows what drives it.</div>
+    </div>
+    <div>
+      <div class="feature"><b>3. What-if and next steps.</b> Toggle "switch to generics", "₹5 lakh cover" or "save 10%
+        of income" and watch the score update live. Next steps link to real schemes: PM-JAY, Ayushman Vay Vandana
+        (all 70+) and Jan Aushadhi Kendras.</div>
+      <div class="feature"><b>4. Medicine savings finder.</b> Photograph a prescription or search a brand. Each medicine
+        is matched to the Jan Aushadhi generic with the <i>same salts and strengths</i>. Savings feed back into the
+        risk score.</div>
+    </div>
+  </div>
+
+  <h2>Example: a family of four, one grandparent aged 71 with diabetes and high BP, ₹38,000/month income, no insurance</h2>
+  <table>
+    <tr><th></th><th>Today</th><th>After generics + ₹5 lakh cover + saving 10% of income</th></tr>
+    <tr><td>Risk score</td><td>74 · At risk</td><td>17 · Protected</td></tr>
+    <tr><td>Health runway</td><td>9.1 months (crosses the 10% line in month 10)</td><td>12+ months (stays under all year)</td></tr>
+    <tr><td>Unpaid gap after a major hospital stay</td><td>₹1,82,695 (4.8 months of income)</td><td>₹0</td></tr>
+    <tr><td>Medicine bill (5 prescribed brands)</td><td>about ₹2,490/month</td><td>Save ₹2,237/month at Jan Aushadhi (₹26,800 a year)</td></tr>
+  </table>
+
+  <div class="grid">
+    <div>
+      <h2>How AI is used</h2>
+      <ul>
+        <li><b>Prescription reading:</b> Claude (vision + structured output) reads printed or handwritten prescriptions,
+          including Indian shorthand (1-0-1, BD, HS), into medicine, strength and doses per day.</li>
+        <li><b>Plain-language plan</b> in English or Hindi, written only from computed figures and never giving medical
+          advice.</li>
+        <li><b>Not AI:</b> prices, matching and risk scores are deterministic and traceable to sources. Both AI features
+          have offline fallbacks.</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Data and clinical safety</h2>
+      <ul>
+        <li>96 Jan Aushadhi chronic-care generics (official MRP list) matched to ~22,600 branded listings. Salt
+          names are normalised and price is compared per tablet.</li>
+        <li>Regular vs extended-release differences are flagged. Thyroxine and anti-epileptics carry a "switch only with
+          your doctor" warning. Combination medicines prompt a strip check.</li>
+        <li>Every model assumption is listed in the app's <i>How it works</i> page.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>Impact and next steps</h2>
+  <p>
+    HealthRunway turns a national statistic, catastrophic health spending, into a personal early warning a family
+    can act on today, starting with the cheapest lever: the medicines they already buy every month. Next steps:
+    calibrate hospitalisation rates with NSS age tables and PM-JAY claims, extend to the full 2,400-product Jan
+    Aushadhi list, add a Kendra locator, track real monthly spending, and support more Indian languages.
+  </p>
+
+  <footer>
+    Sources: MoSPI NSS 75th round, Key Indicators of Social Consumption in India: Health (2017-18) · WHO/World Bank
+    SDG 3.8.2 · PMBJP Product &amp; MRP List (janaushadhi.gov.in) · Indian Medicine Dataset (MIT) · NHA PM-JAY.
+    HealthRunway gives financial planning support, not medical advice.
+  </footer>
+</div>
+</body>
+</html>

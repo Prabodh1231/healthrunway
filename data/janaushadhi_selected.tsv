@@ -1,0 +1,98 @@
+drug_code	generic_name	unit_size	mrp	group
+145	Metformin Hydrochloride Tablets IP 500mg	10	6.81	Anti-Diabetic
+144	Metformin Hydrochloride Sustained Release Tablets IP 1000 mg	10	13.62	Anti-Diabetic
+137	Glimepiride Tablets IP 1mg	10	4.54	Anti-Diabetic
+138	Glimepiride Tablets IP 2mg	10	5.68	Anti-Diabetic
+747	Glimepiride Tablets IP 3mg	10	6.81	Anti-Diabetic
+748	Glimepiride Tablets IP 4mg	10	8.25	Anti-Diabetic
+904	Metformin Hydrochloride 500mg (Prolonged release) and Glimepiride 1mg Tablets IP	10	18.15	Anti-Diabetic
+34	Metformin Hydrochloride Prolonged-release 500mg and Glimepiride 2mg Tablets IP	15	27.23	Anti-Diabetic
+1481	Metformin 1000mg (Prolonged release) and Glimepiride 1mg Tablets IP	10	29.49	Anti-Diabetic
+767	Metformin Hydrochloride 1000mg (Prolonged Release) and Glimepiride 2mg Tablets IP	10	37.43	Anti-Diabetic
+135	Gliclazide Tablets IP 40 mg	10	15.88	Anti-Diabetic
+136	Gliclazide Tablets IP 80 mg	10	24.75	Anti-Diabetic
+368	Gliclazide Extended release Tablets 60 mg	10	45.38	Anti-Diabetic
+1240	Gliclazide 80mg and Metformin Hydrochloride 500mg Tablets	10	29.49	Anti-Diabetic
+1462	Vildagliptin 50mg and Metformin Hydrochloride 500mg Tablets IP	15	30.94	Anti-Diabetic
+1463	Vildagliptin 50mg and Metformin Hydrochloride 1000mg Tablets IP	15	36.09	Anti-Diabetic
+1129	Teneligliptin 20mg and Metformin Hydrochloride 500mg (Sustained Release) Tablets IP	10	30.94	Anti-Diabetic
+1130	Teneligliptin 20mg and Metformin Hydrochloride 1000mg (Sustained Release) Tablets IP	10	41.25	Anti-Diabetic
+1802	Sitagliptin Phosphate 50mg & Metformin Hydrochloride 500mg Tablets	10	56.72	Anti-Diabetic
+1801	Sitagliptin Phosphate 50mg & Metformin Hydrochloride 1000mg Tablets	10	61.88	Anti-Diabetic
+2100	Dapagliflozin 10mg and Metformin Hydrochloride (Extended Release) 500mg Tablets	10	52.59	Anti-Diabetic
+2099	Dapagliflozin 10mg and Metformin Hydrochloride (Extended Release) 1000mg Tablets	10	51.56	Anti-Diabetic
+1695	Linagliptin 2.5mg and Metformin 500mg Tablets	10	32.81	Anti-Diabetic
+1099	Metformin Hydrochloride 500mg and Voglibose 0.3mg Tablets	10	17.02	Anti-Diabetic
+1804	Sitagliptin Phosphate Tablets IP 50mg	10	44.34	Anti-Diabetic
+1803	Sitagliptin Phosphate Tablets IP 100mg	10	82.50	Anti-Diabetic
+2364	Sitagliptin 50mg and Metformin 500mg Extended Release Tablets	10	51.56	Anti-Diabetic
+1461	Vildagliptin Tablets IP 50mg	15	20.63	Anti-Diabetic
+1075	Teneligliptin Tablets IP 20mg	10	20.63	Anti-Diabetic
+2101	Dapagliflozin Tablets 5mg	10	25.78	Anti-Diabetic
+1592	Dapagliflozin Tablets 10 mg	10	33.00	Anti-Diabetic
+1609	Empagliflozin Tablets 10 mg	10	37.50	Anti-Diabetic
+1610	Empagliflozin Tablets 25 mg	10	61.88	Anti-Diabetic
+2490	Amlodipine Tablets IP 2.5mg	15	4.13	Cardiovascular System (CVS)
+264	Amlodipine Tablets IP 5mg	10	5.68	Cardiovascular System (CVS)
+1787	S (-) Amlodipine Tablets IP 5mg	15	10.32	Cardiovascular System (CVS)
+427	S(-)Amlodipine Tablets IP 2.5 mg	10	12.47	Cardiovascular System (CVS)
+299	Telmisartan Tablets IP 20mg	10	11.34	Cardiovascular System (CVS)
+300	Telmisartan Tablets IP 40mg	10	12.38	Cardiovascular System (CVS)
+1813	Telmisartan Tablets IP 80mg	10	24.96	Cardiovascular System (CVS)
+1811	Telmisartan 80mg and Amlodipine 5mg Tablets IP	10	28.13	Cardiovascular System (CVS)
+1410	Telmisartan 40mg, Amlodipine 5mg and Hydrochlorothiazide 12.5mg Tablets	10	21.55	Cardiovascular System (CVS)
+1284	Cilnidipine 10mg and Telmisartan 40mg Tablets	10	24.96	Cardiovascular System (CVS)
+1106	Metoprolol Succinate 50mg (Extended Release) and Telmisartan 40mg Tablets	10	32.90	Cardiovascular System (CVS)
+1411	Telmisartan 40mg and Chlorthalidone 6.25mg Tablets	10	20.63	Cardiovascular System (CVS)
+2053	Telmisartan 40mg and Atorvastatin 10mg Tablet	10	14.06	Cardiovascular System (CVS)
+1156	Metoprolol Succinate 25mg (Extended Release) and Amlodipine Besilate 5mg Tablets IP	7	12.00	Cardiovascular System (CVS)
+1503	Amlodipine Besilate 5mg and Bisoprolol Fumarate 5mg Tablets	10	18.56	Cardiovascular System (CVS)
+288	Losartan Tablets IP 25mg	10	7.94	Cardiovascular System (CVS)
+289	Losartan Tablets IP 50mg	10	12.47	Cardiovascular System (CVS)
+287	Losartan Potassium 50mg and Hydrochlorothiazide 12.5mg Tablets IP	10	13.62	Cardiovascular System (CVS)
+441	Losartan 50mg and Amlodipine 5mg Tablets IP	10	22.69	Cardiovascular System (CVS)
+417	Telmisartan 40mg and Amlodipine 5mg Tablets IP	15	24.96	Cardiovascular System (CVS)
+298	Telmisartan 40mg and Hydrochlorothiazide 12.5mg Tablets IP	10	17.53	Cardiovascular System (CVS)
+2076	Atorvastatin Tablets IP 5mg	10	10.32	Cardiovascular System (CVS)
+266	Atorvastatin Tablets IP 10mg	10	9.08	Cardiovascular System (CVS)
+267	Atorvastatin Tablets IP 20mg	10	12.47	Cardiovascular System (CVS)
+456	Atorvastatin Tablets IP 40 mg	10	22.69	Cardiovascular System (CVS)
+2148	Atorvastatin Tablets IP 80mg	10	32.81	Cardiovascular System (CVS)
+1044	Rosuvastatin Tablets IP 5mg	10	13.62	Cardiovascular System (CVS)
+759	Rosuvastatin Tablets IP 10mg	15	19.28	Cardiovascular System (CVS)
+418	Rosuvastatin Tablets IP 20 mg	10	29.49	Cardiovascular System (CVS)
+1784	Rosuvastatin Tablets IP 40mg	10	45.38	Cardiovascular System (CVS)
+269	Clopidogrel Tablets IP 75mg	10	19.28	Cardiovascular System (CVS)
+270	Clopidogrel 75mg and Aspirin 75mg Tablets IP	10	21.66	Cardiovascular System (CVS)
+1581	Clopidogrel 75mg and Aspirin 150mg Capsules	15	58.13	Cardiovascular System (CVS)
+2072	Atorvastatin 10mg, Aspirin 75mg and Clopidogrel 75mg Capsules	10	39.19	Cardiovascular System (CVS)
+1516	Atorvastatin 20mg and Clopidogrel 75mg Capsules	10	39.70	Cardiovascular System (CVS)
+5	Aspirin Gastro-resistant Tablets IP 150 mg	14	5.16	Analgesic/Antipyretic/Anti-Inflammatory
+796	Aspirin Gastro-resistant 75mg and Atorvastatin 10mg Capsules IP	10	16.50	Cardiovascular System (CVS)
+1392	Aspirin Gastro Resistant 75mg and Rosuvastatin 10mg Capsules IP	10	38.16	Cardiovascular System (CVS)
+1851	Thyroxine Sodium Tablets IP 25mcg	100	42.19	Anti-Thyroid
+1221	Thyroxine Sodium Tablets IP 50mcg	100	55.65	Anti-Thyroid
+1852	Thyroxine Sodium Tablets IP 75mcg	100	56.25	Anti-Thyroid
+332	Thyroxine Sodium Tablets IP 100 mcg	100	70.33	Anti-Thyroid
+1853	Thyroxine Sodium Tablets IP 125mcg	100	71.25	Anti-Thyroid
+2118	Metoprolol Succinate Extended Release Tablets IP 12.5mg	10	9.38	Cardiovascular System (CVS)
+265	Atenolol Tablets IP 50 mg	14	6.81	Cardiovascular System (CVS)
+793	Atenolol Tablets IP 25mg	14	6.19	Cardiovascular System (CVS)
+1708	Metoprolol Succinate Prolonged release tablets IP 25mg	15	17.02	Cardiovascular System (CVS)
+2092	Metoprolol Succinate (extended release) 25mg and Cilnidipine 10mg Tablets	10	18.75	Cardiovascular System (CVS)
+2448	Olmesartan Medoxomil Tablets IP 10mg	10	9.38	Cardiovascular System (CVS)
+992	Olmesartan Medoxomil Tablets IP 20mg	10	17.53	Cardiovascular System (CVS)
+432	Olmesartan Medoxomil Tablets IP 40 mg	10	37.43	Cardiovascular System (CVS)
+1566	Cilnidipine Tablets IP 5 mg	10	11.34	Cardiovascular System (CVS)
+1565	Cilnidipine Tablets IP 10 mg	10	17.02	Cardiovascular System (CVS)
+837	Cilnidipine Tablets IP 20mg	10	20.42	Cardiovascular System (CVS)
+2038	Pantoprazole Gastro-Resistance Tablets IP 20mg	10	7.22	Gastrointestinal (GIT)
+212	Pantoprazole Gastro Resistant Tablets IP 40 mg	10	12.47	Gastrointestinal (GIT)
+250	Montelukast Sodium Tablets IP 5mg	10	15.47	Respiratory
+251	Montelukast Sodium Tablets IP 10mg	10	20.42	Respiratory
+252	Montelukast Sodium 10mg and Levocetirizine 5mg Tablets IP	10	20.63	Respiratory
+1681	Levetiracetam Tablets IP 250 mg	10	28.13	Central Nervous System (CNS)
+508	Levetiracetam Tablets IP 500 mg	10	69.83	Central Nervous System (CNS)
+1682	Levetiracetam Tablets IP 750 mg	10	92.82	Central Nervous System (CNS)
+1680	Levetiracetam Tablets IP 1000 mg	10	112.50	Central Nervous System (CNS)
+327	Phenytoin Tablets IP 100 mg	100	56.72	Central Nervous System (CNS)
